@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+.item3 {
+    top: 100px;
+    background-image: url(/assets/images/bg.svg);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4D96A9;
+    position: relative;
+}
+
+.line {
+    width: 1px;
+    height: 84px;
+    background-color: #D8D8D8;
+    margin: 0 auto;
+}
+
+.item3 .marker {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 900;
+    font-family: red hat display;
+    text-align: center;
+    color: #87879D;
+    background-color: #FAFAFA;
+    padding: 15px 17.5px 15px 17.5px;
+    border-radius: 29px;
+    width: 56px;
+    height: 56px;
+    border: 1px solid rgb(135, 135, 157, .25);
+}
+
+.line-marker {
+    position: absolute;
+    top: -111px;
+}
+
+.item3 h2 {
+    color: #fafafa;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    font-family: Red Hat Display;
+    width: 327px;
+    height: 72px;
+    text-align: center;
+    margin: 0;
+    margin-top: 92px;
+}
+
+.item3 p {
+    color: #fafafa;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: Red Hat Display;
+    width: 327px;
+    text-align: center;
+    margin: 0;
+    padding-top: 24px;
+}
+
+.item3 button {
+    border-style: none;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: Red hat Display;
+    color: #fff;
+    background-color: #855FB1;
+    padding: 16px 40px 16px 40px;
+    border-radius: 29px;
+    line-height: 26px;
+    height: 58px;
+    width: 193px;
+    margin-top: 32px;
+}
+
+.item3 button div {
+    color: #D9B8FF;
+    display: inline;
+}
