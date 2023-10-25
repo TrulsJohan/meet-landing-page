@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .item3 {
@@ -15,18 +16,17 @@
     position: relative;
 }
 
-.line {
+.line-two {
     width: 1px;
     height: 84px;
     background-color: #D8D8D8;
     margin: 0 auto;
 }
 
-.item3 .marker {
+.item3 .marker-two {
     font-size: 16px;
     line-height: 26px;
     font-weight: 900;
-    font-family: red hat display;
     text-align: center;
     color: #87879D;
     background-color: #FAFAFA;
@@ -34,10 +34,10 @@
     border-radius: 29px;
     width: 56px;
     height: 56px;
-    border: 1px solid rgb(135, 135, 157, .25);
+    border: 1px solid rgba(135, 135, 157, .25);
 }
 
-.line-marker {
+.line-two-marker {
     position: absolute;
     top: -111px;
 }
@@ -47,7 +47,6 @@
     font-size: 32px;
     font-weight: 900;
     line-height: 36px;
-    font-family: Red Hat Display;
     width: 327px;
     height: 72px;
     text-align: center;
@@ -60,7 +59,6 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
-    font-family: Red Hat Display;
     width: 327px;
     text-align: center;
     margin: 0;
@@ -71,7 +69,6 @@
     border-style: none;
     font-size: 16px;
     font-weight: 900;
-    font-family: Red hat Display;
     color: #fff;
     background-color: #855FB1;
     padding: 16px 40px 16px 40px;
