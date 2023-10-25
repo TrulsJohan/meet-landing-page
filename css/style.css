@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --maincolor: #fafafa;
     --secondcolor: #4D96A9;
@@ -7,3 +11,46 @@
     --textcolormain: #28283D;
     --textcolorsecond: #87879D;
 }
+
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 29px;
+    width: 193px;
+    height: 58px;
+    background-color: var(--secondcolor);
+}
+
+.button2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 29px;
+    width: 139px;
+    height: 58px;
+    background-color: var(--thirdcolor);
+    margin-top: 16px;
+}
+
+
