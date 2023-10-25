@@ -13,7 +13,6 @@
     --textcolorsecond: #87879D;
 }
 
-
 .container {
     display: flex;
     align-items: center;
@@ -49,7 +48,6 @@ svg {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .group {
@@ -62,17 +60,18 @@ svg {
     width: 327px;
     height: 88px;
     text-align: center;
+    color: #28283d;
+    line-height: 44px;
 }
 
 .paragraph {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     width: 327px;
-    height: 78px;
+    height: 88px;
     color: #87879D;
     margin-top: 24px;
     font-size: 16px;
+    margin-bottom: 0;
 }
 
 .button1 {
@@ -89,6 +88,10 @@ svg {
     font-size: 1rem;
     margin-top: 32px;
     font-weight: bold;
+}
+
+.button1 span {
+    color: var(--secondcolor1);
 }
 
 .button2 {
@@ -121,6 +124,7 @@ svg {
     align-items: center;
     width: 327px;
     margin-bottom: 64px;
+    margin-top: 64px;
 }
 .line-one {
     width: 1px;
@@ -130,21 +134,23 @@ svg {
 }
 
 .marker-one {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 900;
+    text-align: center;
+    color: #87879D;
+    background-color: #fff;
     padding: 15px 17.5px 15px 17.5px;
     border-radius: 29px;
     width: 56px;
     height: 56px;
-    background-color: #FAFAFA;
-    color: #87879D;
-    font-size: 16px;
-    font-family: 'Red Hat Display', sans-serif;
     border: 1px solid rgba(135, 135, 157, .25);
 }
 
 
 .item2 {
     grid-area: item2;
-    background-color: #FAFAFA;
+    background-color: #Fff;
     width: 327px;
     height: 862px;
 }
@@ -190,6 +196,8 @@ svg {
     height: 26px;
     margin: 0;
     padding-bottom: 24px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
 }
 
 .item1-text h2 {
@@ -222,6 +230,7 @@ svg {
     align-items: center;
     background-color: #4D96A9;
     position: relative;
+    margin-top: 126px;
 }
 
 .line-two {
