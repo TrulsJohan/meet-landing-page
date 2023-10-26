@@ -88,9 +88,10 @@ svg {
     font-size: 1rem;
     margin-top: 32px;
     font-weight: bold;
+    gap: 4px;
 }
 
-.button1 span {
+.button1 span:nth-child(2) {
     color: var(--secondcolor1);
 }
 
